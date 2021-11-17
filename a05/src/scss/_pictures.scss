@@ -1,0 +1,11 @@
+.planet {
+  width: 65%;
+  max-width: 190px;
+  float: right;
+  shape-outside: circle(50%);
+}
+
+.occupied {
+  width: 100%;
+  padding: 10px 0 15px 0;
+}

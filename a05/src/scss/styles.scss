@@ -1,0 +1,65 @@
+@import "normalize.css";
+@import "foundation.min.css";
+@import "text";
+@import "pictures";
+@import "main";
+@import "form";
+
+body {
+  @include avenir;
+  font-size: 1.2rem;
+  background-color: #000;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+@media (min-width: 500px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .planet {
+    width: 57%;
+    max-width: 300px;
+  }
+
+  .main-content {
+    width: 75%;
+  }
+}
+
+@media (min-width: 600px) {
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .planet {
+    width: 57%;
+    max-width: 300px;
+  }
+
+  .main-content {
+    width: 75%;
+  }
+}
+
+@media (min-width: 700px) {
+
+  body {
+    font-size: 1.1rem;
+  }
+
+  .title {
+    font-size: 3.2rem;
+  }
+
+  .planet {
+    width: 53%;
+    max-width: 320px;
+  }
+}
+
+
+
+

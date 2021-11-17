@@ -1,0 +1,17 @@
+.noprint {
+  display: none;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.main-content {
+  background-color: #fff;
+}
+
+.noprint-text {
+  text-decoration: none;
+  color: #000;
+}

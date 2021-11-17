@@ -1,0 +1,183 @@
+@import "normalize.css";
+@import "foundation.min.css";
+@font-face {
+  font-family: "Moon_Light";
+  src: url("../../assets/fonts/Moon_Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "AvenirLTStd-Roman";
+  src: url("../../assets/fonts/AvenirLTStd-Roman.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.title {
+  font-size: 1.9rem;
+  text-align: center;
+  width: 100%;
+}
+
+.moon {
+  font-family: "Moon_Light", sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+a:active {
+  color: #ff0000;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.underline {
+  border-bottom: 1.6px dashed #fff;
+  color: #fff;
+}
+
+.planet {
+  width: 65%;
+  max-width: 190px;
+  float: right;
+  shape-outside: circle(50%);
+}
+
+.occupied {
+  width: 100%;
+  padding: 10px 0 15px 0;
+}
+
+.main-content {
+  background-color: #222;
+  margin-top: -50px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5px 20px 60px 20px;
+  width: 83%;
+  max-width: 750px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.intro {
+  display: flex;
+}
+
+.conclusion {
+  padding-top: 30px;
+}
+
+.opinion {
+  padding-top: 50px;
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  resize: vertical;
+  background-color: #fff;
+}
+
+input[type=submit] {
+  background-color: #222;
+  color: #fff;
+  padding: 12px 20px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #111;
+}
+
+input[type=submit]:active {
+  background-color: #ff0000;
+}
+
+.contact {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #000;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+body {
+  font-family: "AvenirLTStd-Roman", sans-serif;
+  font-size: 1.2rem;
+  background-color: #000;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+@media (min-width: 500px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .planet {
+    width: 57%;
+    max-width: 300px;
+  }
+
+  .main-content {
+    width: 75%;
+  }
+}
+@media (min-width: 600px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .planet {
+    width: 57%;
+    max-width: 300px;
+  }
+
+  .main-content {
+    width: 75%;
+  }
+}
+@media (min-width: 700px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  .title {
+    font-size: 3.2rem;
+  }
+
+  .planet {
+    width: 53%;
+    max-width: 320px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

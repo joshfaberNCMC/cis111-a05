@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Moon_Light";
+  src: url("../../assets/fonts/Moon_Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AvenirLTStd-Roman";
+  src: url("../../assets/fonts/AvenirLTStd-Roman.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@mixin moon {
+  font-family: "Moon_Light", sans-serif;
+}
+
+@mixin avenir {
+  font-family: "AvenirLTStd-Roman", sans-serif;
+}
+
+.title {
+  font-size: 1.9rem;
+  text-align: center;
+  width: 100%;
+}
+
+.moon {
+  font-family: "Moon_Light", sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+a:active {
+  color: #ff0000;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.underline {
+  border-bottom: 1.6px dashed #fff;
+  color: #fff;
+}
